@@ -29,7 +29,7 @@ function App() {
 
         {/* Logo */}
         <div className="NavBarLogo">
-          <button onClick={() => setBody(<InitialPage />)}> Karen Hu</button>
+          <button onClick={() => setBody(<InitialPage />)}> Name Here</button>
         </div>
 
         {/* Navigation tabs */}
