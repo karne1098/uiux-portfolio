@@ -12,44 +12,87 @@ export function IterativeProjectPage() {
                         Overview
                     </div>
                     <div className="FirstLevelBox">
-                        text goes here in a cute little box em ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        A group exercise in designing an interactive interface for an emerging startup.
+                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative overview image.png"} />
+                        <b> Our Project</b> <br />
+                        For this project, we chose to design a mobile interface for Slingshot, a YC startup that utilizes software that automatically monitors and reduces people's medical bills. <br />
+                        <b> The Product</b> <br />
+                        With Slingshot, users can sign up and connect their insurance.
+                        The software will then begin to automatically monitor all claims processed by the user's insurance and will notify the user when they are being overcharged for errors, up-codes, uncovered costs, and negotiable items.
+                        From these notifications, users have the option of enabling Slingshot to correct and lower their medical bills.
+                        Users can also upload medical bills directly and opt in for automatic insurance claim monitoring.
                     </div>
                 </div>
-
             </div>
 
-            {/* Preparation */}
+            {/* Sketches and Wireframes */}
             <div className="ProjectSectionContainer">
                 <div className="FirstLevelRow">
-
                     <div className="FirstLevelName">
-                        Preparation
+                        Sketches and Wireframes
                     </div>
-
-
-
                     <div className="FirstLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
                 </div>
 
+                {/* Pre-Design Thinking */}
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>interview questions </mark>
+                        <mark>pre-design thinking </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consat non proident,
+                        We decided to focus on the direct user interactions of Slingshot, where users easily access information on their medical bill savings.
+                        As a result, we decided to create a mobile interface for Slingshot, since mobile interfaces are accessible to any smartphone user, for easy, everyday use, and they allow for real-time state monitoring through push notifications. <br /> <br />
+                        Because Slingshot is focused around consumer health services, there's a wide range of potential users who would be impacted by our interface:
+                        <ul>
+                            <li> Financially stable people with insurance (either through employment or personal payment)</li>
+                            <ul>
+                                <li>People who are financially stable often can afford receiving regular medical check-ups when ill, which can be hard to keep up with when the frequency of bills received increases. This demographic could be positively impacted by our prototype in that having a mobile interface for the Slingshot software would make checking for extraneous costs on a large batch of bills received much easier to catch and manage accordingly.</li>
+                                <li>People who can generally afford care but may be tipped over by a particularly financially strenuous bill would also be positively affected, since having both the Slingshot software and the availability of that software on an easily accessible device like mobile would help to mitigate the adverse effects certain medical bills may have on a user.</li>
+                            </ul>
+                            <li> Under-served, uninsured populations </li>
+                            <ul>
+                                <li>People like those experiencing poverty, houselessness, disability, chronic illness(es), mental illness(es), etc. would benefit from such a service and interface, as our prototype would provide these users the option of both the technical details of their cost breakdowns and savings, as well as additional information and resources for them to access, all in one application. For those who wouldn’t have a mobile device to access our prototype from would at least be able to access the information Slingshot would provide through any device supporting the receiving of and access to emails. </li>
+                                <li>People who turn to healthcare services as a last resort or in emergency situations would also benefit from a mobile interface for Slingshot, considering ER bills can be extremely costly and oftentimes more damaging than the medical incident itself. With both the ease of access through a mobile application and the Slingshot software available through that interface, these users would be able to easily view detailed descriptions of what they were charged for like they would from an itemized bill, while simultaneously being able to account for and reduce those charges. </li>
+                            </ul>
+                        </ul>
                     </div>
                 </div>
 
+                {/* sketches */}
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>sketch and description </mark>
+                        <mark>sketches </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        We began our iterative design process by having each member create rough sketches for 3 different screens. We didn't specify what those screens would entail, as we wanted to get an idea of what type of screens each member thought would be the most essential for the prototype. Though some of us had screens that overlapped, we felt that our design concepts overall were substantially different enough to include them in our final sketches. You can find each of our sketches below: <br /> <br />
+                        Team Member 1
+                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative sketch1.png"} />
+                        <br />
+                        Team Member 2
+                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative sketch2.png"} />
+                        <br />
+                        Team Member 3
+                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative sketch3.png"} />
+                        Team Member 4
+                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative sketch4.png"} />
+                        <br />
+                        <br />
                     </div>
                 </div>
+
+                {/* Lofi Wireframes */}
+                <div className="SecondLevelRow">
+                    <div className="SecondLevelName">
+                        <mark>lofi wireframes </mark>
+                    </div>
+                    <div className="SecondLevelBox">
+                        After we finished our rough sketches, we incorporated our sketches (overlapping and separate) with additional features we felt were also relevant to Slingshot's mission into one set of wireframes with 4 different screens: a “Home” page, a “Bills” page, a “Trends” page, and a “Resources” page.
+                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative lofi wireframes.png"} />
+
+                    </div>
+                </div>
+
             </div>
 
             {/* Gathering Data */}
@@ -57,65 +100,122 @@ export function IterativeProjectPage() {
 
                 <div className="FirstLevelRow">
                     <div className="FirstLevelName">
-                        Gathering Data
+                        Mockups
                     </div>
                     <div className="FirstLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
                 </div>
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>key observations </mark>
+                        <mark>initial hifi </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consat non proident,
+                        After creating our wireframes, we implemented them into a more polished, Hi-Fi prototype through Figma. In this prototype, we also added a few features not included in our original Lo-Fi design (such as the 'Click to Upload Bill' button on the "Home" page) and included significantly more detail for realistic interactions users would be engaging with.
                     </div>
                 </div>
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>interview insights </mark>
+                        <mark>critiques </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        We presented this prototype to a critique session with other students in the CSCI1300 course. The main critiques we received regarded:
+                        <ol>
+                            <li>
+                                <b> Lack of User Control and Freedom: </b>Missing “back” functionality on nested pages and “escape” options from drop-down menus made it inconvenient for users to navigate through pages
+                            </li>
+                            <li>
+                                <b> Ineffective Aspects of our Design System: </b> The use of transparency for both cards and buttons takes away from the “Call-to-Action” nature of the buttons.
+                            </li>
+                            <li>
+                                <b> Disrupting User Mental Models: </b>Returning to the “Home” page violated users’ expectations of having an animation that was not distinguishable from the animations of leaving the “Home” page (both actions caused pages to come in from the right).
+                            </li>
+                            <li>
+                                <b> Overlooking Visibility: </b> The subpage tabs displayed on the “Trends” and “Resources” headers were difficult to read, as they required that users scroll horizontally to be able to view all of the offered subpages.
+                            </li>
+                        </ol>
                     </div>
                 </div>
+
+                <div className="SecondLevelRow">
+                    <div className="SecondLevelName">
+                        <mark>iterated prototype </mark>
+                    </div>
+                    <div className="SecondLevelBox">
+                        Once we received our critiques, we further iterated on our design by implementing fixes based on the suggestions offered by our fellow CSCI1300 students. We addressed each main critique in our final, Hi-Fi prototype:
+                        <ol>
+                            <li>
+                                <b> Improving User Control and Freedom: </b>We implemented “back” functionality on nested pages as seen in our “Bills” page, which consisted of the most nested interactions of our prototype, using “back” buttons. We also implemented “back” functionality for the drop-down menus in which they would return to their closed state when users would click on any part of the screen outside of the menus.
+                            </li>
+                            <li>
+                                <b> Improve Upon our Design System: </b> We assigned opaque colors to buttons like “Click to Upload Bills” on the “Home” page and drop-down menus on the “Bills” and “Trends” page, while only using transparent colors for cards.
+                            </li>
+                            <li>
+                                <b> Aligning with User Mental Models: </b>We added an animation for returning to the “Home” page (page comes in from the left) that was the opposite of the animations used for leaving the “Home” page to align with the idea that returning to a page is the opposite of leaving a page.
+                            </li>
+                            <li>
+                                <b> Accounting for Visibility: </b> We removed the scrolling feature and reduced the size of the subpage tab names on both the “Trends” and “Resources pages so users would be able to view all of the subpages offered in one place.
+                            </li>
+                        </ol>
+                        <br />
+                        You can find and interact with our final prototype <a href="https://www.figma.com/proto/sPyO1Rdaw9DfFYsvFSV1SB/Slingshot-Iterative-Design?node-id=17%3A16&scaling=scale-down&page-id=16%3A2&starting-point-node-id=17%3A16&show-proto-sidebar=1"> here</a>
+                    </div>
+                </div>
+
             </div>
 
-            {/* Personas */}
+            {/* User Testing */}
             <div className="ProjectSectionContainer">
 
                 <div className="FirstLevelRow">
                     <div className="FirstLevelName">
-                        Personas
+                        User Testing
                     </div>
                     <div className="FirstLevelBox">
+                        After finalizing our hi-fi prototype, we sent the prototype to a <a href="https://www.usertesting.com/"> remote user testing service</a> to gather feedback and data on our design from random users.
+                    </div>
+                </div>
+
+                <div className="SecondLevelRow">
+                    <div className="SecondLevelName">
+                        <mark>task </mark>
+                    </div>
+                    <div className="SecondLevelBox">
+                        For users to test our prototype, we needed to create a specific task for them to accomplish. We decided on the following:
+                        <br />
+                        <b>Find the cost breakdown of how much you saved in “Physician Services” on your most recently completed bill from RI Hospital."</b>
+                        <br />
+                        <br />
+                        To complete this task, we broke down a user's required actions into 4 subtasks:
+                        <ol>
+                            <li>Navigate to the "Bills" page.</li>
+                            <li>Click on the “Sort and Filter” dropdown button to sort the “Completed” bills by “Most Recent.”</li>
+                            <li>Find the most recently completed bill from RI Hospital.</li>
+                            <li>Click on “Emergency Visit, Level 4” under “Physician Services” to see the cost breakdown of what you saved.</li>
+                        </ol>
+                        <br />
+                        <br />
+                        With our submission of the prototype to the UserTesting site, we included the following directions for the user to keep in mind:
+                        <br />
+                        <b>Imagine you are a company employee stressed about medical bills from your emergency room visit in September. You want to check if that medical bill has reduced in cost through the Slingshot app on your phone. Your task is to find the cost breakdown of how much you saved in “Physician Services” on your most recently completed bill from RI Hospital. You are encouraged to think aloud as you perform the task so we can better understand your thought process while navigating the site! Please note that this is an interactive mock-up and not an actual mobile application. Some screens (e.g. the Spendings tab in the Trends page) were not actually created or are unreachable through the mock-up.</b>
+
+
+                    </div>
+                </div>
+
+                <div className="SecondLevelRow">
+                    <div className="SecondLevelName">
+                        <mark> results </mark>
+                    </div>
+                    <div className="SecondLevelBox">
                         text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
                 </div>
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>empathy maps (draft) </mark>
-                    </div>
-                    <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consat non proident,
-                    </div>
-                </div>
-
-                <div className="SecondLevelRow">
-                    <div className="SecondLevelName">
-                        <mark> critiques </mark>
-                    </div>
-                    <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </div>
-                </div>
-
-                <div className="SecondLevelRow">
-                    <div className="SecondLevelName">
-                        <mark> empathy maps (revised) </mark>
+                        <mark> analysis </mark>
                     </div>
                     <div className="SecondLevelBox">
                         text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -124,12 +224,12 @@ export function IterativeProjectPage() {
 
             </div>
 
-            {/* Storyboard */}
+            {/* Conclusion and Next Steps */}
             <div className="ProjectSectionContainer">
 
                 <div className="FirstLevelRow">
                     <div className="FirstLevelName">
-                        Storyboard
+                        Reflection
                     </div>
                     <div className="FirstLevelBox">
                         text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -138,7 +238,7 @@ export function IterativeProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>Randy: Repeat User </mark>
+                        <mark> what i learned </mark>
                     </div>
                     <div className="SecondLevelBox">
                         text goes here in a cute little box Lorem ipsum dolor sit amet, consat non proident,
@@ -147,7 +247,7 @@ export function IterativeProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark> Newt: New User </mark>
+                        <mark> next steps </mark>
                     </div>
                     <div className="SecondLevelBox">
                         text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

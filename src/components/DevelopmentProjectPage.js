@@ -18,15 +18,13 @@ export function DevelopmentProjectPage() {
 
             </div>
 
-            {/* Preparation */}
+            {/* Competitor Analysis */}
             <div className="ProjectSectionContainer">
                 <div className="FirstLevelRow">
 
                     <div className="FirstLevelName">
-                        Preparation
+                        Competitor Analysis
                     </div>
-
-
 
                     <div className="FirstLevelBox">
                         text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -35,7 +33,7 @@ export function DevelopmentProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>interview questions </mark>
+                        <mark>craigslist </mark>
                     </div>
                     <div className="SecondLevelBox">
                         text goes here in a cute little box Lorem ipsum dolor sit amet, consat non proident,
@@ -44,69 +42,7 @@ export function DevelopmentProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>sketch and description </mark>
-                    </div>
-                    <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </div>
-                </div>
-            </div>
-
-            {/* Gathering Data */}
-            <div className="ProjectSectionContainer">
-
-                <div className="FirstLevelRow">
-                    <div className="FirstLevelName">
-                        Gathering Data
-                    </div>
-                    <div className="FirstLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </div>
-                </div>
-
-                <div className="SecondLevelRow">
-                    <div className="SecondLevelName">
-                        <mark>key observations </mark>
-                    </div>
-                    <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consat non proident,
-                    </div>
-                </div>
-
-                <div className="SecondLevelRow">
-                    <div className="SecondLevelName">
-                        <mark>interview insights </mark>
-                    </div>
-                    <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </div>
-                </div>
-            </div>
-
-            {/* Personas */}
-            <div className="ProjectSectionContainer">
-
-                <div className="FirstLevelRow">
-                    <div className="FirstLevelName">
-                        Personas
-                    </div>
-                    <div className="FirstLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </div>
-                </div>
-
-                <div className="SecondLevelRow">
-                    <div className="SecondLevelName">
-                        <mark>empathy maps (draft) </mark>
-                    </div>
-                    <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consat non proident,
-                    </div>
-                </div>
-
-                <div className="SecondLevelRow">
-                    <div className="SecondLevelName">
-                        <mark> critiques </mark>
+                        <mark>bunz </mark>
                     </div>
                     <div className="SecondLevelBox">
                         text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -115,7 +51,7 @@ export function DevelopmentProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark> empathy maps (revised) </mark>
+                        <mark>depop </mark>
                     </div>
                     <div className="SecondLevelBox">
                         text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -124,12 +60,13 @@ export function DevelopmentProjectPage() {
 
             </div>
 
-            {/* Storyboard */}
+
+            {/* Technical Requirements */}
             <div className="ProjectSectionContainer">
 
                 <div className="FirstLevelRow">
                     <div className="FirstLevelName">
-                        Storyboard
+                        Technical Requirements
                     </div>
                     <div className="FirstLevelBox">
                         text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -138,7 +75,7 @@ export function DevelopmentProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>Randy: Repeat User </mark>
+                        <mark>assignment </mark>
                     </div>
                     <div className="SecondLevelBox">
                         text goes here in a cute little box Lorem ipsum dolor sit amet, consat non proident,
@@ -147,7 +84,93 @@ export function DevelopmentProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark> Newt: New User </mark>
+                        <mark>implementation plan </mark>
+                    </div>
+                    <div className="SecondLevelBox">
+                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+            </div>
+
+            {/* WireFraming */}
+            <div className="ProjectSectionContainer">
+
+                <div className="FirstLevelRow">
+                    <div className="FirstLevelName">
+                        WireFraming
+                    </div>
+                    <div className="FirstLevelBox">
+                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+
+                <div className="SecondLevelRow">
+                    <div className="SecondLevelName">
+                        <mark>sketches </mark>
+                    </div>
+                    <div className="SecondLevelBox">
+                        text goes here in a cute little box Lorem ipsum dolor sit amet, consat non proident,
+                    </div>
+                </div>
+
+                <div className="SecondLevelRow">
+                    <div className="SecondLevelName">
+                        <mark>mid-fi wireframes </mark>
+                    </div>
+                    <div className="SecondLevelBox">
+                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+            </div>
+
+            {/* Result */}
+            <div className="ProjectSectionContainer">
+
+                <div className="FirstLevelRow">
+                    <div className="FirstLevelName">
+                        Result
+                    </div>
+                    <div className="FirstLevelBox">
+                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+
+                <div className="SecondLevelRow">
+                    <div className="SecondLevelName">
+                        <mark>site </mark>
+                    </div>
+                    <div className="SecondLevelBox">
+                        text goes here in a cute little box Lorem ipsum dolor sit amet, consat non proident,
+                    </div>
+                </div>
+
+
+            </div>
+
+            {/* Reflection */}
+            <div className="ProjectSectionContainer">
+
+                <div className="FirstLevelRow">
+                    <div className="FirstLevelName">
+                        Reflection
+                    </div>
+                    <div className="FirstLevelBox">
+                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+
+                <div className="SecondLevelRow">
+                    <div className="SecondLevelName">
+                        <mark>what i learned </mark>
+                    </div>
+                    <div className="SecondLevelBox">
+                        text goes here in a cute little box Lorem ipsum dolor sit amet, consat non proident,
+                    </div>
+                </div>
+
+                <div className="SecondLevelRow">
+                    <div className="SecondLevelName">
+                        <mark> next steps </mark>
                     </div>
                     <div className="SecondLevelBox">
                         text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
