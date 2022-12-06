@@ -1,38 +1,194 @@
-.App {
+:root {
+  /* --caution300: #D2051E; */
+  --primary100: #AAC0FA;
+  --primary300: #0050C9;
+  --primary500: #1000CA;
+  --highlight: #FFFB95;
+
+  --my-font: Verdana, Geneva, Tahoma, sans-serif;
+
+  --secondary100: #FFDEB8;
+
+  --success100: #C5F6DF;
+
+  --neutral100: rgb(200, 200, 200);
+
+}
+
+.App {}
+
+
+/* Navigation Bar */
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 1px 2px 5px rgba(255, 0, 191, 0.25);
+}
+
+.NavBarLogo {}
+
+.NavTabs {
+  display: flex;
+  flex-direction: row;
+}
+
+.NavBar button {
+  margin: 1.5em 1em;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  border: none;
+  padding: .5em 1em;
+  border-radius: 1em;
+  box-shadow: 1px 2px 5px rgba(255, 0, 191, 0.25);
+}
+
+.NavBar button:hover {
+  box-shadow: inset 1px 3px 5px rgba(255, 0, 191, 0.25);
+}
+
+
+
+
+
+/* Body */
+.Body {
+  padding: 0 15em;
+}
+
+.BodySection {
+  /* background-color: pink; */
+  /* border-style: solid; */
+  /* border-color: hotpink; */
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Card */
+.ProjectCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 40%;
+  background-color: white;
+  border-radius: 1em;
+  box-shadow: 2px 2px 4px 4px hotpink;
+  margin: 1em 0;
+  text-decoration: none;
+
 }
 
-.App-link {
-  color: #61dafb;
+.Card:hover {
+  box-shadow: 4px 4px 8px 8px hotpink;
+  width: 41%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.CardTitle {
+  font-size: 2em;
+  margin: .5em 0 0em .5em;
+  text-align: left;
+}
+
+.CardDescription {
+  margin: 0 1em;
+  text-align: left;
+}
+
+.CardImage {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.CardTags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.CardTag {
+  margin: 1em;
+}
+
+
+
+
+
+/* Project Page */
+.PersonasProject {}
+
+.ProjectTitle {
+  margin: 100px 0 0 0;
+  font-size: 32px;
+}
+
+.ProjectSectionContainer {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+
+  margin: 3em 0;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+
+.FirstLevelRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.FirstLevelName {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 500;
+  width: 25%;
+  padding: 12px;
+  /* background-color: red; */
+}
+
+
+.FirstLevelBox {
+  width: 60%;
+  border-radius: 12px;
+  padding: 18px 12px 12px 0;
+  /* background-color: red; */
+}
+
+.SecondLevelRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: blue; */
+}
+
+.SecondLevelName {
+  font-size: 18px;
+  text-decoration: solid;
+  text-decoration-style: solid;
+  width: 25%;
+  margin: 1em;
+
+}
+
+.SecondLevelBox {
+  width: 60%;
+  /* background-color: pink; */
+  margin: 1em;
+}
+
+mark {
+  background-color: var(--highlight);
+  padding: 6px 12px;
+  border-radius: 1em;
+  box-shadow: inset 1px 3px 5px rgba(0, 0, 0, 0.25);
 }
