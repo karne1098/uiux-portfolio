@@ -10,7 +10,7 @@ import { IterativeProjectPage } from "./components/IterativeProjectPage.js"
 import { DevelopmentProjectPage } from "./components/DevelopmentProjectPage.js"
 
 // for next week, portfolio optimization
-// import { WorkPage } from "./components/WorkPage.js";
+import { WorkPage } from "./components/WorkPage.js";
 // import { ArtPage } from "./components/ArtPage.js";  
 
 
@@ -19,6 +19,23 @@ function App() {
 
   // Figure out how to make the body a state such that it changes
   const [body, setBody] = useState(<InitialPage />)
+
+  const bodyToPersonas = () => {
+    setBody(<PersonasProjectPage />)
+  }
+
+  const bodyToRedesign = () => {
+    setBody(<RedesignProjectPage />)
+  }
+
+  const bodyToIterative = () => {
+    setBody(<IterativeProjectPage />)
+  }
+
+  const bodyToDevelopment = () => {
+    setBody(<DevelopmentProjectPage />)
+  }
+
 
 
   return (
@@ -29,12 +46,12 @@ function App() {
 
         {/* Logo */}
         <div className="NavBarLogo">
-          <button onClick={() => setBody(<InitialPage />)}> Name Here</button>
+          <button onClick={() => setBody(<InitialPage bodyToPersonas={bodyToPersonas} />)}> Name Here</button>
         </div>
 
         {/* Navigation tabs */}
         <div className="NavTabs">
-          <div>
+          {/* <div>
             <button className="NavTab" onClick={() => setBody(<PersonasProjectPage />)}> Personas</button>
           </div>
 
@@ -48,14 +65,16 @@ function App() {
 
           <div>
             <button className="NavTab" onClick={() => setBody(<DevelopmentProjectPage />)}> Web Development</button>
+          </div> */}
+
+
+
+
+          <div className="NavTab">
+            <button onClick={() => setBody(<WorkPage bodyToPersonas={bodyToPersonas} bodyToRedesign={bodyToRedesign} bodyToIterative={bodyToIterative} bodyToDevelopment={bodyToDevelopment} />)}> Work</button>
           </div>
 
 
-
-
-          {/* <div className="NavTab">
-            <button onClick={() => setBody(<WorkPage />)}> Work</button>
-          </div> */}
           {/* <div className="NavTab">
             <button onClick={() => setBody(<ArtPage />)}> Experimental/Art</button>
           </div> */}

@@ -1,8 +1,8 @@
-import { PersonasProject } from "./PersonasProjectPage.js"
+import { PersonasProjectPage } from "./PersonasProjectPage.js"
 
 export function Card(props) {
     return (
-        <a className="Card" href={props.link} target="_blank">
+        <button className="Card" onClick={() => { console.log(props); props.bodyToProject() }}>
             <div className="CardTitle" >
                 {props.projectTitle}
             </div>
@@ -19,7 +19,7 @@ export function Card(props) {
                     </div>
                 ))}
             </div>
-        </a>
+        </button>
 
     )
 }
