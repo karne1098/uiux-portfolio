@@ -1,8 +1,14 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
 :root {
   /* --caution300: #D2051E; */
   --primary100: #AAC0FA;
   --primary300: #0050C9;
-  --primary500: #1000CA;
+  --primary500: rgb(16, 0, 202);
   --highlight: #FFFB95;
 
   --my-font: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,9 +19,25 @@
 
   --neutral100: rgb(200, 200, 200);
 
+  --personalityShadow: rgba(255, 0, 191, 0.25);
+
+  --cardShadow: rgba(255, 0, 191, 0.40)
 }
 
-.App {}
+h1 {
+  font-size: 4.1em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+.App {
+  background-color: white;
+  background:
+    linear-gradient(0deg, rgb(16, 0, 202, .1), rgb(255, 255, 255)),
+    url("noise.svg");
+}
 
 
 /* Navigation Bar */
@@ -24,7 +46,8 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: white;
-  box-shadow: 1px 2px 5px rgba(255, 0, 191, 0.25);
+  box-shadow: 1px 2px 5px var(--personalityShadow);
+  padding: 0 1em;
 }
 
 .NavBarLogo {}
@@ -42,14 +65,12 @@
   border: none;
   padding: .5em 1em;
   border-radius: 1em;
-  box-shadow: 1px 2px 5px rgba(255, 0, 191, 0.25);
-  /* font-style: italic; */
-  /* font-weight: 500; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-shadow: 1px 2px 5px var(--personalityShadow);
+  font-size: 16px;
 }
 
 .NavBar button:hover {
-  box-shadow: inset 1px 3px 5px rgba(255, 0, 191, 0.25);
+  box-shadow: inset 1px 3px 5px var(--personalityShadow);
 }
 
 
@@ -59,14 +80,12 @@
 /* Body */
 .Body {
   padding: 0 15em;
+  /* filter: contrast(170%) brightness(1000%); */
+
+  /* background-color: white */
 }
 
-.BodySection {
-  /* background-color: pink; */
-  /* border-style: solid; */
-  /* border-color: hotpink; */
-  text-align: center;
-}
+
 
 /* Card */
 .ProjectCards {
@@ -76,21 +95,25 @@
   justify-content: space-between;
 }
 
-.Card {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  background-color: white;
-  border-radius: 1em;
-  box-shadow: 2px 2px 4px 4px hotpink;
-  margin: 1em 0;
+.Body button {
+  margin: 1em 1em;
+  padding: 2em;
+  width: 47%;
   text-decoration: none;
-
+  color: black;
+  border: none;
+  border-radius: 1em;
+  box-shadow: 2px 4px 10px var(--cardShadow);
+  background-color: white;
 }
 
-.Card:hover {
-  box-shadow: 4px 4px 8px 8px hotpink;
-  width: 41%;
+.Body button:hover {
+  box-shadow: inset 2px 4px 10px var(--cardShadow);
+}
+
+
+.Card {
+  background-color: white;
 }
 
 .CardTitle {
@@ -118,18 +141,36 @@
 
 .CardTag {
   margin: 1em;
+  color: var(--primary500);
+  border-radius: 1em;
+  border: 1px solid var(--primary500);
+  margin: .2em;
+  padding: .2em .6em .35em .6em;
+}
+
+
+/* Footer */
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: -1px -2px 5px var(--personalityShadow);
+  padding: 0 1em;
+  margin: 5em 0;
 }
 
 
 
 
-
 /* Project Page */
-.PersonasProject {}
+.PersonasProject {
+  /* background-color: purple; */
+}
 
 .ProjectTitle {
   margin: 100px 0 0 0;
-  font-size: 32px;
+  /* font-size: 32px; */
 }
 
 .ProjectSectionContainer {
@@ -143,12 +184,14 @@
   padding: 2em;
   border-style: solid;
   border-color: var(--primary500);
+  background-color: white;
 }
 
 .FirstLevelRow {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* background-color: blue; */
 }
 
 
@@ -164,9 +207,10 @@
 
 
 .FirstLevelBox {
-  width: 60%;
+  width: 70%;
   border-radius: 12px;
   padding: 18px 12px 12px 0;
+  font-size: 20px;
   /* background-color: red; */
 }
 
@@ -183,8 +227,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* background-color: blue; */
   margin: 1em 0;
+  /* background-color: purple; */
 }
 
 .SecondLevelName {
@@ -192,24 +236,63 @@
   text-decoration: solid;
   text-decoration-style: solid;
   width: 25%;
-  margin: .5em;
+  padding: 12px;
+  /* margin: .5em 0 0 .5em; */
+  /* background-color: pink; */
 }
 
 .SecondLevelBox {
-  width: 60%;
+  width: 70%;
+  padding: 0 12px 12px 0;
+  font-size: 16px;
   /* background-color: pink; */
   /* margin: 2em; */
 }
 
+
 .SecondLevelBox img {
   width: 100%;
   height: auto;
+  /* border: 1px solid black; */
+  border-radius: 1em;
 }
 
-.SecondLevelBox ol {
-  margin: 0;
+.SecondLevelBox button {
+  width: 98%;
+  /* margin: 1em 1em; */
+  padding: 1em;
+  text-decoration: none;
+  color: black;
+  border: none;
+  border-radius: 1em;
+  box-shadow: 2px 4px 10px var(--cardShadow);
+  background-color: white;
+
+}
+
+.SecondLevelBox ul {
+  margin: .5em 0 1em 0;
   /* padding: 0; */
 }
+
+.SecondLevelBox ol li {
+  margin: 0;
+}
+
+.SecondLevelBoxOrderedList {
+  font-weight: 700;
+  background-color: var(--primary100);
+  padding: 4px 8px;
+  border-radius: 1em;
+  /* border-style: solid;
+  border-width: 1px;
+  border-color: black; */
+}
+
+.SecondLevelBox li a {
+  margin: 0 0 0 1em;
+}
+
 
 mark {
   background-color: var(--highlight);

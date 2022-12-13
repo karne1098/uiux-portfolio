@@ -4,17 +4,32 @@ export function InitialPage(props) {
 
         <div className="InitialPage">
             <div className="BodySection">
-                <h2>Blurb</h2>
+                <h1>Welcome!</h1>
+                <div className="AboutCard">
+                    <div className="AboutCardImage">
+                        <img src={process.env.PUBLIC_URL + "/" + "images/profilepic.png"} />
+                    </div>
+                    <div
+                        className="AboutCardBlurb"> I am a UX generalist who centers users and communities to develop impactful interface solutions to social, political, economic, and otherwise critical problems of our time.
+                    </div>
+                    <div> </div>
+                </div>
+
+                <div className="WorkCard">
+                </div>
             </div>
 
             {/* Projects */}
             <div className="BodySection">
-                <h2>Projects</h2>
-                consider having like a preview, but they are NOT clickable. user must enter the 'work' tab
-                {/* ToDo: fill out information for these cards, change links to be correct too*/}
+                <h2>Work {"-->"}</h2>
 
+                <div className="AboutCard">
+                    {/* 2 mini cards */}
 
+                </div>
 
+                <div className="WorkCard">
+                </div>
             </div>
 
             {/* Artwork and Experiments */}

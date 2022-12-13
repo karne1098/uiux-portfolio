@@ -28,7 +28,7 @@ export function RedesignProjectPage() {
                     </div>
                     <div className="SecondLevelBox">
                         <ol >
-                            <li>I analyze and identify flaws in an existing interface.</li>
+                            <li>I analyze and identify <b>problems</b> in an existing interface.</li>
                             <li>I create low-fidelity and high-fidelity prototypes for various screen sizes. </li>
                             <li>I build a responsive website based on those prototypes.</li>
                         </ol>
@@ -46,7 +46,7 @@ export function RedesignProjectPage() {
                     </div>
 
                     <div className="FirstLevelBox">
-                        I analyze the usability and accessibility problems present on the site.
+                        I analyze and identify <b>problems</b> in an existing interface.
                     </div>
                 </div>
 
@@ -58,7 +58,7 @@ export function RedesignProjectPage() {
                         The page is not learnable, memorable, or effecient.
                         <ol>
                             <li>
-                                Pictures are scattered and non-uniform
+                                <span class="SecondLevelBoxOrderedList">Pictures are scattered and non-uniform</span>
                                 <ul>
                                     <li> Images are placed randomly throughout the page</li>
                                     <li>Images are differently sized</li>
@@ -69,13 +69,13 @@ export function RedesignProjectPage() {
                                 </ul>
                             </li>
                             <li>
-                                There is no afforce for whether an element can be clicked or not
+                                <span class="SecondLevelBoxOrderedList">There is no affordance for whether an element can be clicked or not</span>
                                 <ul>
                                     <li>There is no indication that certain things are clickable other than the cursor changing from an arrow to a hand. </li>
                                 </ul>
                             </li>
                             <li>
-                                Hard to figure out how to order the product:
+                                <span class="SecondLevelBoxOrderedList">It's hard to figure out how to order the product:</span>
                                 <ul>
                                     <li>Throughout the page, ordering is mentioned but the deliverable changes: a form, a call, an email... what exactly is it?</li>
                                     <li>The order form is at the bottom of the page as a part of the footer.</li>
@@ -85,12 +85,11 @@ export function RedesignProjectPage() {
                             </li>
 
                             <li>
-                                No visual hierarchy or visual organization
+                                <span class="SecondLevelBoxOrderedList">No visual hierarchy or visual organization</span>
                                 <ul>
                                     <li>There is a variety of bolding, color, and text-size changes that are used to draw distinction/attention, but there is no logic to these styles. </li>
                                 </ul>
                             </li>
-
                         </ol>
                     </div>
                 </div>
@@ -105,28 +104,28 @@ export function RedesignProjectPage() {
                         <a href="https://wave.webaim.org/"> WebAIM WAVE</a>. Here are major conclusions fromthe results:
                         <ol>
                             <li>
-                                Important elements are missing alternative text.
+                                <span class="SecondLevelBoxOrderedList">Important elements are missing alternative text.</span>
                                 <ul>
                                     <li> Most images do not have alternative text </li>
                                     <li> Hotspots like the navigation bar do not have alternative text</li>
                                 </ul>
                             </li>
                             <li>
-                                Many low-contrast areas are difficult to read
+                                <span class="SecondLevelBoxOrderedList">Many low-contrast areas are difficult to read</span>
                                 <ul>
                                     <li> The background is a busy pattern in a relatively strong blue, making it hard to read black text.</li>
                                 </ul>
                             </li>
 
                             <li>
-                                Language isn't defined
+                                <span class="SecondLevelBoxOrderedList">Language isn't defined</span>
                                 <ul>
                                     <li> This is problematic because users that use screen readers need that to read in the proper language.</li>
                                 </ul>
                             </li>
 
                             <li>
-                                No page regions or first level heading
+                                <span class="SecondLevelBoxOrderedList">No page regions or first level heading</span>
                                 <ul>
                                     <li>This is problematic because users who use assistive technologies require that in order to navigate through the page. .</li>
                                 </ul>

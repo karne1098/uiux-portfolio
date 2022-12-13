@@ -1,11 +1,11 @@
-import { PersonasProjectPage } from "./PersonasProjectPage.js"
 
 export function Card(props) {
     return (
-        <button className="Card" onClick={() => { console.log(props); props.bodyToProject() }}>
+        <button className="Card" onClick={() => { props.bodyToProject() }}>
             <div className="CardTitle" >
-                {props.projectTitle}
+                <h2>{props.projectTitle}</h2>
             </div>
+
             <div className="CardDescription">
                 {props.description}
             </div>
@@ -14,11 +14,12 @@ export function Card(props) {
             </div>
             <div className="CardTags">
                 {props.tags.map((tag) => (
-                    <div className="ProjectTag">
+                    <div className="CardTag">
                         {tag}
                     </div>
                 ))}
             </div>
+
         </button>
 
     )

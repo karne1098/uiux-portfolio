@@ -3,7 +3,6 @@ import { useState } from "react";
 import { InitialPage } from './components/InitialPage';
 import { AboutPage } from "./components/AboutPage.js";
 
-import { Card } from "./components/Card.js"
 import { PersonasProjectPage } from "./components/PersonasProjectPage.js"
 import { RedesignProjectPage } from "./components/RedesignProjectPage.js"
 import { IterativeProjectPage } from "./components/IterativeProjectPage.js"
@@ -46,45 +45,25 @@ function App() {
 
         {/* Logo */}
         <div className="NavBarLogo">
-          <button onClick={() => setBody(<InitialPage bodyToPersonas={bodyToPersonas} />)}> Name Here</button>
+          <button onClick={() => setBody(<InitialPage bodyToPersonas={bodyToPersonas} />)}> radicalwaterbear101</button>
         </div>
 
         {/* Navigation tabs */}
         <div className="NavTabs">
-          {/* <div>
-            <button className="NavTab" onClick={() => setBody(<PersonasProjectPage />)}> Personas</button>
-          </div>
-
-          <div>
-            <button className="NavTab" onClick={() => setBody(<RedesignProjectPage />)}> Responsive Redesign</button>
-          </div>
-
-          <div>
-            <button className="NavTab" onClick={() => setBody(<IterativeProjectPage />)}> Iterative Design</button>
-          </div>
-
-          <div>
-            <button className="NavTab" onClick={() => setBody(<DevelopmentProjectPage />)}> Web Development</button>
-          </div> */}
-
-
-
-
           <div className="NavTab">
-            <button onClick={() => setBody(<WorkPage bodyToPersonas={bodyToPersonas} bodyToRedesign={bodyToRedesign} bodyToIterative={bodyToIterative} bodyToDevelopment={bodyToDevelopment} />)}> Work</button>
+            <button onClick={() => setBody(<WorkPage bodyToPersonas={bodyToPersonas} bodyToRedesign={bodyToRedesign} bodyToIterative={bodyToIterative} bodyToDevelopment={bodyToDevelopment} />)}>
+              Work
+            </button>
           </div>
-
 
           {/* <div className="NavTab">
             <button onClick={() => setBody(<ArtPage />)}> Experimental/Art</button>
           </div> */}
           <div >
-            <button className="NavTab" onClick={() => setBody(<AboutPage />)}> About</button>
+            <button className="NavTab" onClick={() => setBody(<AboutPage />)}>
+              About
+            </button>
           </div>
-
-
-
-
 
         </div>
 
@@ -95,6 +74,10 @@ function App() {
         {body}
       </div>
 
+      {/* Footer */}
+      <div className="Footer">
+        hello
+      </div>
 
     </div>
   );
