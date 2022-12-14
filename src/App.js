@@ -35,6 +35,14 @@ function App() {
     setBody(<DevelopmentProjectPage />)
   }
 
+  const bodyToWork = () => {
+    setBody(<WorkPage />)
+  }
+
+  const bodyToAbout = () => {
+    setBody(<AboutPage />)
+  }
+
 
 
   return (

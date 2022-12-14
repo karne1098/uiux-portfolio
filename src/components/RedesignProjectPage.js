@@ -12,13 +12,16 @@ export function RedesignProjectPage() {
                         Overview
                     </div>
                     <div className="FirstLevelBox">
-                        <img src={process.env.PUBLIC_URL + "/" + "images/original redesign site.jpg"} />
-                        I chose to redesign a page of the Pacific Northwest X-Ray Inc because their interface has many usability and accessibility problems.
-                        The content area of the site also allows me to gain experience designing within a domain that I am interested in (medicine and public health). <br />
-                        <a href="https://www2.pnwx.com/Accessories/LeadProducts/Aprons/TechnoAideFlex/" target="_blank"> Visit Original Site  </a> <br />
-                        <a href="https://radicalwaterbear101.github.io/redesign" target="_blank"> Visit My Redesign Site  </a> <br />
-
-
+                        I chose to redesign a page of the Pacific Northwest X-Ray Inc because their interface is not <i>responsive</i>. This means that the website page layout does not change or <i>respond to</i> the screen or window size of the user's device.
+                        The site's design has severe usability and accessibility problems both related to and unrelated to its lack of responsivity. <br /> <br />
+                        The content of the site also allows me to gain experience designing within a domain that I am interested in (medicine and public health).
+                        Throughout this page, you'll see how and why I redesigned the X-Ray page from its {" "}
+                        <a href="https://www2.pnwx.com/Accessories/LeadProducts/Aprons/TechnoAideFlex/" target="_blank">[existing design]</a> :
+                        <img src={process.env.PUBLIC_URL + "/" + "images/redesign old site.png"} />
+                        To the {"  "}
+                        <a href="https://radicalwaterbear101.github.io/redesign" target="_blank">[my redesign]</a> :
+                        <img src={process.env.PUBLIC_URL + "/" + "images/redesign cover.png"} />
+                        Feel free visit these sites and change the size of your viewing window to see how the different websites behave.
                     </div>
                 </div>
 
@@ -29,8 +32,8 @@ export function RedesignProjectPage() {
                     <div className="SecondLevelBox">
                         <ol >
                             <li>I analyze and identify <b>problems</b> in an existing interface.</li>
-                            <li>I create low-fidelity and high-fidelity prototypes for various screen sizes. </li>
-                            <li>I build a responsive website based on those prototypes.</li>
+                            <li>For various screen sizes, I <b>prepare</b> low-fidelity sketches, a design system, high-fidelity prototypes, and notes for handoff to developers. </li>
+                            <li>I <b>code a responsive site</b> according to the design materials I prepared.</li>
                         </ol>
                     </div>
                 </div>
@@ -52,7 +55,7 @@ export function RedesignProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>heuristic evaluation</mark>
+                        <mark>usability</mark>
                     </div>
                     <div className="SecondLevelBox">
                         The page is not learnable, memorable, or effecient.
@@ -162,7 +165,8 @@ export function RedesignProjectPage() {
                         In Preparation For Coding...
                     </div>
                     <div className="FirstLevelBox">
-                        blurb
+                        For various screen sizes, I <b>prepare</b> low-fidelity sketches, a design system, high-fidelity prototypes, and notes for handoff to developers.
+
                     </div>
                 </div>
 
@@ -185,11 +189,17 @@ export function RedesignProjectPage() {
                         <mark>design system </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        Atoms:
+                        <br />
+                        <span className="SecondLevelBoxOrderedList">Atoms: </span>
+                        these are the smallest design choices that we build larger components on
+                        <br />
+                        <br />
                         <img src={process.env.PUBLIC_URL + "/" + "images/redesign atoms.jpg"} />
                         <br />
                         <br />
-                        Molecules:
+                        <span className="SecondLevelBoxOrderedList">Molecules: </span> elements that will repeat in the site, comprising of many atoms
+                        <br />
+                        <br />
                         <img src={process.env.PUBLIC_URL + "/" + "images/redesign molecules.jpg"} />
                     </div>
                 </div>
@@ -199,18 +209,35 @@ export function RedesignProjectPage() {
                         <mark>high fidelity wireframes </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        mobile
-                        <img src={process.env.PUBLIC_URL + "/" + "images/redesign hifi mobile.jpg"} />
-                        <br />
-                        <br />
-                        tablet
-                        <img src={process.env.PUBLIC_URL + "/" + "images/redesign hifi tablet.jpg"} />
-                        <br />
-                        <br />
-                        desktop
-                        <img src={process.env.PUBLIC_URL + "/" + "images/redesign hifi desktop.jpg"} />
-
-
+                        <ol>
+                            <li> <span class="SecondLevelBoxOrderedList">Desktop</span></li>
+                            <ul>
+                                <li> This is the largest screen size. Most users would be viewing with a Destop Device.</li>
+                                <li>
+                                    <img src={process.env.PUBLIC_URL + "/" + "images/redesign hifi desktop.jpg"} />
+                                </li>
+                            </ul>
+                            <br />
+                            <br />
+                            <br />
+                            <li> <span class="SecondLevelBoxOrderedList">Tablet</span></li>
+                            <ul>
+                                <li> This is the size of an iPad, surface Pro, or any other mid-size device.</li>
+                                <li>
+                                    <img src={process.env.PUBLIC_URL + "/" + "images/redesign hifi tablet.jpg"} />
+                                </li>
+                            </ul>
+                            <br />
+                            <br />
+                            <br />
+                            <li> <span class="SecondLevelBoxOrderedList">Mobile</span></li>
+                            <ul>
+                                <li> This is the smallest screen size. It's important to note that few users would be viewing the x-ray equipment using a mobile device.</li>
+                                <li>
+                                    <img src={process.env.PUBLIC_URL + "/" + "images/redesign hifi mobile.jpg"} />
+                                </li>
+                            </ul>
+                        </ol>
                     </div>
                 </div>
 
@@ -219,7 +246,35 @@ export function RedesignProjectPage() {
                         <mark>notes on handoff </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <ol>
+                            <li> <span class="SecondLevelBoxOrderedList">Mobile</span></li>
+                            <ul>
+                                <li> I began with notes on the mobile version, since considerations on flex-wrap were necessary.</li>
+                                <li>
+                                    <img src={process.env.PUBLIC_URL + "/" + "images/redesign handoff mobile.jpg"} />
+                                </li>
+                            </ul>
+                            <br />
+                            <br />
+                            <br />
+                            <li> <span class="SecondLevelBoxOrderedList">Tablet</span></li>
+                            <ul>
+                                <li> Then I moved onto any edits to make for a tablet screen. </li>
+                                <li>
+                                    <img src={process.env.PUBLIC_URL + "/" + "images/redesign handoff tablet.jpg"} />
+                                </li>
+                            </ul>
+                            <br />
+                            <br />
+                            <br />
+                            <li> <span class="SecondLevelBoxOrderedList">Desktop</span></li>
+                            <ul>
+                                <li> While this is the largest and most common screen size, there aren't many changes necessary because of the way elements were constructed to be 'responsive'.</li>
+                                <li>
+                                    <img src={process.env.PUBLIC_URL + "/" + "images/redesign handoff desktop.jpg"} />
+                                </li>
+                            </ul>
+                        </ol>
                     </div>
                 </div>
 
@@ -231,22 +286,29 @@ export function RedesignProjectPage() {
 
                 <div className="FirstLevelRow">
                     <div className="FirstLevelName">
-                        Redesigned Site
+                        Building the Redesigned Site
                     </div>
                     <div className="FirstLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        I <b>code a responsive site</b> according to the design materials I prepared.
                     </div>
                 </div>
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>redesigned site (draft) </mark>
+                        <mark>redesigned site </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consat non proident,
+                        Throughout this page, I've detailed how the practice of responsivity informed my redesigned the X-Ray page from its {" "}
+                        <a href="https://www2.pnwx.com/Accessories/LeadProducts/Aprons/TechnoAideFlex/" target="_blank">[existing design]</a> :
+                        <img src={process.env.PUBLIC_URL + "/" + "images/redesign old site.png"} />
+                        To {"  "}
+                        <a href="https://radicalwaterbear101.github.io/redesign" target="_blank">[my redesign]</a> :
+                        <img src={process.env.PUBLIC_URL + "/" + "images/redesign cover.png"} />
+                        Feel free visit these sites and change the size of your viewing window how the different websites respond.
+
                     </div>
                 </div>
-
+                {/* 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
                         <mark> critiques </mark>
@@ -263,7 +325,7 @@ export function RedesignProjectPage() {
                     <div className="SecondLevelBox">
                         text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
@@ -275,7 +337,7 @@ export function RedesignProjectPage() {
                         Reflection
                     </div>
                     <div className="FirstLevelBox">
-                        This assignment taught me how to think responsively: both to user needs and screen sizes.
+                        This assignment taught me how to think design responsively with multiple screen sizes in mind.
 
                         I learned how to use Figma effectively to not only depict but also model the responsiveness of a site.
 

@@ -1,6 +1,11 @@
+// import logo from "/images/development cover photo.png"
+
+// print(test)
+// import logo from test
 
 export function Card(props) {
     return (
+
         <button className="Card" onClick={() => { props.bodyToProject() }}>
             <div className="CardTitle" >
                 <h2>{props.projectTitle}</h2>

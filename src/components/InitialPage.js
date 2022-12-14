@@ -4,32 +4,26 @@ export function InitialPage(props) {
 
         <div className="InitialPage">
             <div className="BodySection">
-                <h1>Welcome!</h1>
-                <div className="AboutCard">
-                    <div className="AboutCardImage">
+
+
+                <div className="LandingPage">
+                    {/* <div className="LandingPageImage">
                         <img src={process.env.PUBLIC_URL + "/" + "images/profilepic.png"} />
+                    </div> */}
+                    <div className="LandingPageName">
+                        <h1>[radicalwaterbear101]</h1>
                     </div>
-                    <div
-                        className="AboutCardBlurb"> I am a UX generalist who centers users and communities to develop impactful interface solutions to social, political, economic, and otherwise critical problems of our time.
+                    <div className="LandingPageBlurb">
+                        <h2>
+                            I am a <span className="PurpleHighlight">UX generalist</span>. I emphasize <span className="PinkHighlight">research</span>, advocate for <span className="PinkHighlight">users first</span>, and center <span className="PinkHighlight">accessibility</span> in my design process to create  <span className="GreenHighlight">meaningful interface solutions to critical problems</span> of our time!
+                        </h2>
                     </div>
-                    <div> </div>
+                    <div className="LandingPageButtons">
+                        <button><h3>see my work process</h3></button>
+                        <button><h3>learn more about me</h3></button>
+                    </div>
                 </div>
 
-                <div className="WorkCard">
-                </div>
-            </div>
-
-            {/* Projects */}
-            <div className="BodySection">
-                <h2>Work {"-->"}</h2>
-
-                <div className="AboutCard">
-                    {/* 2 mini cards */}
-
-                </div>
-
-                <div className="WorkCard">
-                </div>
             </div>
 
             {/* Artwork and Experiments */}

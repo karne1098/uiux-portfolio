@@ -13,7 +13,7 @@ export function PersonasProjectPage() {
                     </div>
 
                     <div className="FirstLevelBox">
-                        blurb about why the charging station... hook <br />
+
                     </div>
                 </div>
 
@@ -24,7 +24,8 @@ export function PersonasProjectPage() {
                     <div className="SecondLevelBox">
                         <ol >
                             <li> I step into a user's shoes by observing real users interacting with the charging station and interviewing individuals about their experiences.</li>
-                            <li> I create personas based on these users, and illustrate a storyboard for one of the personas.</li>
+                            <li> I create personas based on these users.</li>
+                            <li> I <b>storyboard</b> the experience of one of the personas, Randy (Repeat User).</li>
                         </ol>
                     </div>
                 </div>
@@ -73,9 +74,17 @@ export function PersonasProjectPage() {
                     <div className="SecondLevelBox">
                         Here is a sketch of the entire charging station. It has a screen and a box section.
                         <img src={process.env.PUBLIC_URL + "/" + "images/charging station sketch.png"} />
+                        <br />
+                        <br />
                         There are four states the screen can be in:
+                        <br />
+                        <br />
                         <img src={process.env.PUBLIC_URL + "/" + "images/screen stages.png"} />
+                        <br />
+                        <br />
                         And there are three states the boxes can be in:
+                        <br />
+                        <br />
                         <img src={process.env.PUBLIC_URL + "/" + "images/charging box states sketch.png"} />
                     </div>
                 </div>
@@ -203,7 +212,6 @@ export function PersonasProjectPage() {
                             <li>didn't have thorough personas that aligned with user
                                 observations, but did have different types of persona
                                 scenarios</li>
-
                             <li>oddly formatted empathy maps which were funny but
                                 not as portfolio ready</li>
                             <li>wasn't totally sure if the personas
@@ -214,7 +222,7 @@ export function PersonasProjectPage() {
                     </div>
                 </div>
 
-                <div className="SecondLevelRow">
+                {/* <div className="SecondLevelRow">
                     <div className="SecondLevelName">
                         <mark> empathy maps (revised) </mark>
                     </div>
@@ -223,7 +231,7 @@ export function PersonasProjectPage() {
 
 
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
@@ -235,13 +243,13 @@ export function PersonasProjectPage() {
                         Storyboard
                     </div>
                     <div className="FirstLevelBox">
-                        Add a blurb here
+                        I <b>storyboard</b> the experience of one of the personas, Randy (Repeat User).
                     </div>
                 </div>
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>randy (draft)</mark>
+                        <mark>randy (repeat user)</mark>
                     </div>
                     <div className="SecondLevelBox">
                         <img src={process.env.PUBLIC_URL + "/" + "images/story1.jpg"} />
@@ -265,16 +273,30 @@ export function PersonasProjectPage() {
                             <li>The storyboard "doesn't finish the interaction with the machine (getting phone
                                 back)"</li>
                         </ul>
-
                     </div>
                 </div>
 
-                <div className="SecondLevelRow">
+                {/* <div className="SecondLevelRow">
                     <div className="SecondLevelName">
                         <mark>randy (revised)</mark>
                     </div>
                     <div className="SecondLevelBox">
                         revised storyboard goes here
+                    </div>
+                </div> */}
+
+            </div>
+
+            {/* Reflection */}
+            <div className="ProjectSectionContainer">
+                <div className={["FirstLevelRow", "OverviewBorder"].join(' ')}>
+                    <div className="FirstLevelName">
+                        Reflection
+                    </div>
+                    <div className="FirstLevelBox">
+                        If I had more time, I would recreate the personas to make fewer assumptions and focus solely on the information I got from users. I would also finish up the interaction for the storyboard.
+                        I appreciate the critiques my peers gave through UX Factor,
+                        because they help me see flaws that I did not see myself.
                     </div>
                 </div>
 

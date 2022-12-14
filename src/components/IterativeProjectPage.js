@@ -1,6 +1,6 @@
 export function IterativeProjectPage() {
     return (
-        <div className="PersonasProject">
+        <div className="IterativeProject">
             <div className="ProjectTitle">
                 <h1> how can we make an app that monitors overcharged medical bills (an iterative design group project) </h1>
             </div>
@@ -232,7 +232,7 @@ export function IterativeProjectPage() {
                         Reflection
                     </div>
                     <div className="FirstLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
                     </div>
                 </div>
 
@@ -241,7 +241,34 @@ export function IterativeProjectPage() {
                         <mark> what i learned </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consat non proident,
+                        <ol>
+                            <li> <span className="SecondLevelBoxOrderedList"> I learned how to implement the iterative design proccess into my practice</span> </li>
+                            <ul>
+                                <li>
+                                    Talking through our different opinions and thought processes is key.
+                                    By understanding our work and synthesizing our ideas, we were able to collectively construct a better, more well-rounded design than we would have been able to do on our own.
+                                </li>
+                                <li>
+                                    Conducting effective online user testing requires dilligence and strategic planning. While the testing platform and potential users may be easy to get feedback from, that feedback is only as effective as the instructions and questions that we ask them. </li>
+                                <li>
+                                    Asking for and receiving constructive critiques is a valuable skill. By being open to criticism from peers, I not only practice the skill of critically re-thinking and re-imagining designs, but also the skill of defending design choices that we had made.
+                                </li>
+                                <li>
+                                    Rapidly iterating in the span of 2 weeks requires a highly motivated and cooperative team. Effective communication and task allocation according to priority allowed us to successfully complete the project.
+                                </li>
+                            </ul>
+                            <li> <span className="SecondLevelBoxOrderedList"> I learned interactive prototyping in Figma</span> </li>
+                            <ul>
+                                Thinking about interaction and motion design is crucial for mobile UX, since users are viewing the screen at such an intimate distance. Figma allows us to visualize these interactions without any code.
+                            </ul>
+                            <li> <span className="SecondLevelBoxOrderedList"> I understand how my values inform my work.</span> </li>
+                            <ul>
+                                <li>
+                                    I enjoyed working on a project in the domain of public health and healthcare, and I intend to continue working on projects related to the intersection of healthcare and tech.
+                                </li>
+                            </ul>
+
+                        </ol>
                     </div>
                 </div>
 
@@ -250,7 +277,7 @@ export function IterativeProjectPage() {
                         <mark> next steps </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        My Team and I contacted the Founders of Slingshot and are excited to how their startup develops in the coming years!
                     </div>
                 </div>
 
