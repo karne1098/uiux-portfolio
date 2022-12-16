@@ -69,10 +69,11 @@ export function PersonasProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>structural sketch</mark>
+                        <mark>structure</mark>
                     </div>
                     <div className="SecondLevelBox">
                         Here is a sketch of the entire charging station. It has a screen and a box section.
+                        <br />
                         <img src={process.env.PUBLIC_URL + "/" + "images/charging station sketch.png"} />
                         <br />
                         <br />
@@ -91,30 +92,27 @@ export function PersonasProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>interaction descriptions </mark>
+                        <mark>functionality </mark>
                     </div>
                     <div className="SecondLevelBox">
-
-                        <b>Screen Interactions:</b>
                         <ul>
-                            <li>Users tap on the CHARGE 'button' and then tap a charging box to use. Then, they must enter (by tapping) a PIN that they will act as a 'key' to opening the charging box later.
-                            </li>
-                            <li>
-                                Users tap on the RETRIEVE 'button' and then select a box to open. Then, they must enter the PIN they set initially.
+                            <li><span className="SecondLevelBoxOrderedList">Screen Interactions: </span></li>
+                            <ul>
+                                <li>Users tap on the CHARGE 'button' and then tap a charging box to use. Then, they must enter (by tapping) a PIN that they will act as a 'key' to opening the charging box later.
+                                </li>
+                                <li>
+                                    Users tap on the RETRIEVE 'button' and then select a box to open. Then, they must enter the PIN they set initially.
 
-                            </li>
+                                </li>
+                            </ul>
+
+                            <li><span className="SecondLevelBoxOrderedList">Screen to Box Interactions: </span></li>
+                            <ul>
+                                <li>Once a user finishes either the CHARGE or RETREIVE process on the screen, the box they selected will open automatically.</li>
+                                <li>Users may use any of the charging wires available inside of the box. The wires come out from a hole in the back of the box, where they are likely connected to a power source.</li>
+                                <li>Users must manually close the door in order to lock it.</li>
+                            </ul>
                         </ul>
-
-                        <b>Screen to Box Interactions:</b>
-
-                        <ul>
-                            <li>Once a user finishes either the CHARGE or RETREIVE process on the screen, the box they selected will open automatically.</li>
-                            <li>Users may use any of the charging wires available inside of the box. The wires come out from a hole in the back of the box, where they are likely connected to a power source.</li>
-                            <li>Users must manually close the door in order to lock it.</li>
-                        </ul>
-
-
-
 
                     </div>
                 </div>
@@ -146,9 +144,24 @@ export function PersonasProjectPage() {
                     </div>
                     <div className="SecondLevelBox">
                         <ol>
-                            <li><b>Speed:</b> some users approached the charging station with speed and interacted with the charging station for less than 30 seconds, whereas other users spent 2-3 minutes interacting with the charging station.</li>
-                            <li> <b>Screen vs. Charging Box Interaction:</b> some users looked at, opened, and closed a few different charging boxes during the whole process. Others did not look at the boxes and directly started interacting with the screen. </li>
-                            <li> <b>Retrieval:</b> some people had their backpack and jacket on and did not return them to their study spot after retrieving their phone, whereas other people had nothing with them and put their phone back in the charging box after retrieving it and looking at it for a few minutes.</li>
+                            <li><span className="SecondLevelBoxOrderedList">Speed:</span></li>
+                            <ul>
+                                <li>
+                                    some users approached the charging station with speed and interacted with the charging station for less than 30 seconds, whereas other users spent 2-3 minutes interacting with the charging station.
+                                </li>
+                            </ul>
+                            <li> <span className="SecondLevelBoxOrderedList">Screen vs. Charging Box Interaction:</span></li>
+                            <ul>
+                                <li>
+                                    users looked at, opened, and closed a few different charging boxes during the whole process. Others did not look at the boxes and directly started interacting with the screen.
+                                </li>
+                            </ul>
+                            <li> <span className="SecondLevelBoxOrderedList">Retrieval:</span></li>
+                            <ul>
+                                <li>
+                                    some people had their backpack and jacket on and did not return them to their study spot after retrieving their phone, whereas other people had nothing with them and put their phone back in the charging box after retrieving it and looking at it for a few minutes.
+                                </li>
+                            </ul>
                         </ol>
                     </div>
                 </div>
@@ -159,17 +172,45 @@ export function PersonasProjectPage() {
                     </div>
                     <div className="SecondLevelBox">
                         <ol>
-                            <li><b>Diving Line in User-Type: </b> First-time users vs. repeat users</li>
-                            <li> <b>Screen vs. Charging Box Interaction: </b>
-                                First time users learn the screen component intuitively, but they have a slight learning curve in understanding how the screen and boxes interact with each other, whereas repeat users interact with the machine using muscle memory. Their mental model of the charging station is choosing a box, entering a pin, and putting their phone in.  </li>
-                            <li> <b>Reason for Use: </b> First time users typically decide to approach the charging station out of curiosity. Whether their phone is about to die or it is 60%, they decide to interact with the machine because it gets their interest. Most repeat users use the charging station more as a safe to keep their phone away from themselves than as a charger. Some repeat users prefer not to bring a charger with them, and the charging station is their crutch if their phone dies. </li>
-                            <li><b>Pain Points: </b>
-                                The biggest blockage was when the screen reported a box was vacant, but that box had a phone inside OR that box did not have a working iPhone charger.
-
-                                First time users had to spend longer finding a 'good' charging box, but this did not frustrate them.
-
-                                Repeat users knew which boxes were 'bad' and often didn't care anyway. </li>
-
+                            <li><span className="SecondLevelBoxOrderedList">Dividing Line in User-Type: </span> </li>
+                            <ul>
+                                <li>
+                                    First-time users vs. repeat users
+                                </li>
+                                <li>
+                                    Differences in speed, screen vs. charging box interactions, and retrieval were influenced by prior experience with the charging station.
+                                </li>
+                            </ul>
+                            <li> <span className="SecondLevelBoxOrderedList">Screen vs. Charging Box Interaction: </span> </li>
+                            <ul>
+                                <li>
+                                    First time users learn the screen component intuitively, but they have a slight learning curve in understanding how the screen and boxes interact with each other
+                                </li>
+                                <li>
+                                    repeat users interact with the machine using muscle memory. Their mental model of the charging station is choosing a box, entering a pin, and putting their phone in.
+                                </li>
+                            </ul>
+                            <li> <span className="SecondLevelBoxOrderedList">Reason for Use: </span> </li>
+                            <ul>
+                                <li>
+                                    First time users typically decide to approach the charging station out of curiosity. Whether their phone is about to die or it is 60%, they decide to interact with the machine because it gets their interest.
+                                </li>
+                                <li>
+                                    Most repeat users use the charging station more as a safe to keep their phone away from themselves than as a charger. Some repeat users prefer not to bring a charger with them, and the charging station is their crutch if their phone dies.
+                                </li>
+                            </ul>
+                            <li><span className="SecondLevelBoxOrderedList">Pain Points: </span> </li>
+                            <ul>
+                                <li>
+                                    The biggest blockage was when the screen reported a box was vacant, but that box had a phone inside OR that box did not have a working iPhone charger.
+                                </li>
+                                <li>
+                                    First time users had to spend longer finding a 'good' charging box, but this did not frustrate them.
+                                </li>
+                                <li>
+                                    Repeat users knew which boxes were 'bad' and often didn't care anyway.
+                                </li>
+                            </ul>
                         </ol>
 
                     </div>
@@ -193,7 +234,7 @@ export function PersonasProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>empathy maps (draft) </mark>
+                        <mark>empathy maps </mark>
                     </div>
                     <div className="SecondLevelBox">
                         Here are the initial drafts I created for the two personas: Randy (a repeat user) and Newt (a new user)
@@ -264,7 +305,7 @@ export function PersonasProjectPage() {
                         <mark> critiques </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        I received critiques through UX Factor, an experimental form of relative grading wherein students' and TA's comparative assesment of submission-pairs cumulitavely grades all submissions. I took these comments seriously.
+                        I received critiques through UX Factor, an experimental form of relative grading wherein students' and TA's comparative assessment of submission-pairs cumulatively grades all submissions. I took these comments seriously.
                         <ul>
                             <li>"You could address emotion more frequently!"</li>
                             <li>"I like how you split up the storyboard to before they

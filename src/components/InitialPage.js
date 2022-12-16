@@ -18,10 +18,10 @@ export function InitialPage(props) {
                             I am a <span className="PurpleHighlight">UX generalist</span>. I emphasize <span className="PinkHighlight">research</span>, advocate for <span className="PinkHighlight">users first</span>, and center <span className="PinkHighlight">accessibility</span> in my design process to create  <span className="GreenHighlight">meaningful interface solutions to critical problems</span> of our time!
                         </h2>
                     </div>
-                    <div className="LandingPageButtons">
+                    {/* <div className="LandingPageButtons">
                         <button><h3>see my work process</h3></button>
                         <button><h3>learn more about me</h3></button>
-                    </div>
+                    </div> */}
                 </div>
 
             </div>

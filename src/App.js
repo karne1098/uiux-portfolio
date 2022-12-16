@@ -84,7 +84,7 @@ function App() {
 
       {/* Footer */}
       <div className="Footer">
-        hello
+        Made with care and intention (and matcha) {"<3"}
       </div>
 
     </div>

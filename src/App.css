@@ -91,6 +91,7 @@ h3 {
 /* Body */
 .Body {
   padding: 0 15em;
+  margin: 0 0 10em;
   /* filter: contrast(170%) brightness(1000%); */
 
   /* background-color: white */
@@ -154,11 +155,11 @@ h3 {
 }
 
 .CardTag {
-  margin: 1em;
-  color: var(--primary500);
+  margin: .2em 1em;
+  background-color: var(--purpleHighlight);
   border-radius: 1em;
-  border: 1px solid var(--primary500);
-  margin: .2em;
+  /* border: 1px solid var(--primary500); */
+  /* margin: .2em; */
   padding: .2em .6em .35em .6em;
 }
 
@@ -167,11 +168,12 @@ h3 {
 .Footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   background-color: white;
+  font-size: 1.2em;
   box-shadow: -1px -2px 5px var(--personalityShadow);
-  padding: 0 1em;
-  margin: 5em 0;
+  padding: 1em 0;
+  margin: 5em 0 0 0;
 }
 
 
@@ -185,7 +187,7 @@ h3 {
 .LandingPageBlurb {
   font-size: 2em;
   font-weight: 200;
-  margin: 0 0 2.8em 0;
+  margin: 0 0 6em 0;
 }
 
 .LandingPageButtons {
@@ -254,13 +256,14 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0 0 2.8em 0;
   /* background-color: blue; */
 }
 
 
 
 .FirstLevelName {
-  font-size: 32px;
+  font-size: 2.5em;
   font-style: italic;
   font-weight: 500;
   width: 25%;
@@ -273,7 +276,8 @@ h3 {
   width: 70%;
   border-radius: 12px;
   padding: 18px 12px 12px 0;
-  font-size: 20px;
+  font-size: 1.4em;
+  /* font-size: 20px; */
   /* background-color: red; */
 }
 
@@ -296,6 +300,7 @@ h3 {
 
 .SecondLevelName {
   font-size: 18px;
+  font-size: 1.4em;
   text-decoration: solid;
   text-decoration-style: solid;
   width: 25%;
@@ -307,7 +312,7 @@ h3 {
 .SecondLevelBox {
   width: 70%;
   padding: 0 12px 12px 0;
-  font-size: 16px;
+  font-size: 1.2em;
   /* background-color: pink; */
   /* margin: 2em; */
 }
@@ -336,8 +341,16 @@ h3 {
 }
 
 .SecondLevelBox ul {
-  margin: .5em 0 1em 0;
+  margin: .5em 0 2em 0;
   /* padding: 0; */
+}
+
+.SecondLevelBox ul li {
+  margin: 0;
+}
+
+.SecondLevelBox ul li ul {
+  margin: .25em 0 .41em 0;
 }
 
 .SecondLevelBox ol li {
@@ -366,4 +379,36 @@ mark {
   border-style: solid;
   border-color: black;
   /* box-shadow: inset 1px 3px 5px rgba(0, 0, 0, 0.25); */
+}
+
+
+
+
+
+/* About Page */
+.AboutPagePicAndBlurb {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.1em;
+}
+
+.AboutPagePicAndBlurb h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.AboutPagePic {
+  background-color: red;
+  /* width: 50%; */
+}
+
+.AboutPagePicAndBlurb img {
+  max-width: 40%;
+  margin: 0 4.1em 0 0;
+  border-radius: 1em;
+}
+
+.AboutPageBlurb {
+  width: 55%;
+  font-size: 18px;
 }

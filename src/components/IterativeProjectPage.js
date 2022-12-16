@@ -179,26 +179,62 @@ export function IterativeProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>task </mark>
+                        <mark>testing prep </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        For users to test our prototype, we needed to create a specific task for them to accomplish. We decided on the following:
-                        <br />
-                        <b>Find the cost breakdown of how much you saved in “Physician Services” on your most recently completed bill from RI Hospital."</b>
-                        <br />
-                        <br />
-                        To complete this task, we broke down a user's required actions into 4 subtasks:
                         <ol>
-                            <li>Navigate to the "Bills" page.</li>
-                            <li>Click on the “Sort and Filter” dropdown button to sort the “Completed” bills by “Most Recent.”</li>
-                            <li>Find the most recently completed bill from RI Hospital.</li>
-                            <li>Click on “Emergency Visit, Level 4” under “Physician Services” to see the cost breakdown of what you saved.</li>
+                            <li>
+                                <span className="SecondLevelBoxOrderedList">Task: </span>for users to test our prototype, we needed to create a specific task for them to accomplish. We decided on the following:
+                            </li>
+                            <ul>
+                                <li>
+                                    Find the cost breakdown of how much you saved in “Physician Services” on your most recently completed bill from RI Hospital."
+                                </li>
+                            </ul>
+
+                            <li>
+                                <span className="SecondLevelBoxOrderedList">Subtasks: </span>to complete this task, we broke down a user's required actions into 4 subtasks:
+                            </li>
+                            <ul>
+                                <li>Navigate to the "Bills" page.</li>
+                                <li>Click on the “Sort and Filter” dropdown button to sort the “Completed” bills by “Most Recent.”</li>
+                                <li>Find the most recently completed bill from RI Hospital.</li>
+                                <li>Click on “Emergency Visit, Level 4” under “Physician Services” to see the cost breakdown of what you saved.</li>
+                            </ul>
+
+                            <li>
+                                <span className="SecondLevelBoxOrderedList">Context: </span> we included the following blurb for the user to keep in mind:
+                            </li>
+                            <ul>
+                                <li>
+                                    "Imagine you are a company employee stressed about medical bills from your emergency room visit in September. You want to check if that medical bill has reduced in cost through the Slingshot app on your phone. Your task is to find the cost breakdown of how much you saved in “Physician Services” on your most recently completed bill from RI Hospital. You are encouraged to think aloud as you perform the task so we can better understand your thought process while navigating the site! Please note that this is an interactive mock-up and not an actual mobile application. Some screens (e.g. the Spendings tab in the Trends page) were not actually created or are unreachable through the mock-up."
+                                </li>
+                            </ul>
+
+                            <li>
+                                <span className="SecondLevelBoxOrderedList">Post-Test Questionnaire: </span> we asked users these questions after they finished the test:
+                            </li>
+                            <ul>
+                                <li>
+                                    How would you describe your overall experience with the prototype?
+                                </li>
+                                <li>
+                                    What, if anything, surprised you about the experience?
+                                </li>
+                                <li>
+                                    What, if anything, made you frustrated about the app?
+                                </li>
+                                <li>
+                                    What are your thoughts on the design, color, and/or layout?
+                                </li>
+                            </ul>
+
+
                         </ol>
-                        <br />
-                        <br />
-                        With our submission of the prototype to the UserTesting site, we included the following directions for the user to keep in mind:
-                        <br />
-                        <b>Imagine you are a company employee stressed about medical bills from your emergency room visit in September. You want to check if that medical bill has reduced in cost through the Slingshot app on your phone. Your task is to find the cost breakdown of how much you saved in “Physician Services” on your most recently completed bill from RI Hospital. You are encouraged to think aloud as you perform the task so we can better understand your thought process while navigating the site! Please note that this is an interactive mock-up and not an actual mobile application. Some screens (e.g. the Spendings tab in the Trends page) were not actually created or are unreachable through the mock-up.</b>
+
+
+
+
 
 
                     </div>
@@ -209,7 +245,18 @@ export function IterativeProjectPage() {
                         <mark> results </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        We had a total of 3 users test our Hi-Fi prototype, and you can find video captures of their tests below:
+                        <ul>
+                            <li>
+                                <a href="https://app.usertesting.com/v/55924344-b259-4886-a32d-ca6c7f3a4c5a?encrypted_video_handle=e7115a6f-b1cf-4b81-9111-049c9ced1a43&shared_via=email#!/notes" target="_blank" rel="noreferrer">User 1</a>
+                            </li>
+                            <li>
+                                <a href="https://app.usertesting.com/v/c87e4020-6227-4fea-ab4c-852294396ddf?encrypted_video_handle=ce8f0fe0-aa48-4f4d-9b26-c344ce1a74bd&shared_via=email#!/notes" target="_blank" rel="noreferrer">User 2</a>
+                            </li>
+                            <li>
+                                <a href="https://app.usertesting.com/v/847b2b60-af8d-436b-a9dc-76fbad938169?encrypted_video_handle=94eda025-74a2-4df8-9162-adf39f07882f&shared_via=email#!/notes" target="_blank" rel="noreferrer">User 3</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -218,13 +265,54 @@ export function IterativeProjectPage() {
                         <mark> analysis </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        text goes here in a cute little box Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        We analyzed each user testing video by breaking down the subtasks, the errors users had made, overall user performance with the prototype. Then we note some next steps we would take to iterate accordingly:
+
+                        <ul>
+                            <li>
+                                <span className="SecondLevelBoxOrderedList">Confidence: </span>all users had a general sense of confidence and navigated with ease
+                            </li>
+                            <br />
+                            <li>
+                                <span className="SecondLevelBoxOrderedList">Error Handling: </span>any errors they came across, they were eventually able to resolve with some exploration.
+                            </li>
+                            <br />
+                            <li>
+                                <span className="SecondLevelBoxOrderedList">Information Clarity: </span>we should pecify exactly what the numerical price values on the cards mean, since one user had an issue with this
+                            </li>
+                            <br />
+                            <li>
+                                <span className="SecondLevelBoxOrderedList">Organization: </span>
+                            </li>
+                            <ul>
+                                <li>
+                                    Space footer icons out such that the chances of a user clicking on an icon they did not intend to interact with would be reduced
+                                </li>
+                                <li>
+                                    Make the header titles more noticeable and attention-grabbing so users can easily deduce where they are in the app
+                                </li>
+                            </ul>
+
+                            <li>
+                                <span className="SecondLevelBoxOrderedList">Mental Models: </span>change the "Sort and Filter" button into two separate buttons: one for "Filter" and one for "Sort" to better align with user expectations
+                            </li>
+                            <br />
+
+                            <li>
+                                <span className="SecondLevelBoxOrderedList">User Populations: </span>
+                                more research will need to be done to further address the needs of those that are in situations where their smartphone use is dependent on aspects like accessibility, financial situation, housing status, or any other factor (what unique issues do they face that we have not designed for in our app?)
+                            </li>
+
+
+                        </ul>
                     </div>
+
+
+
                 </div>
 
             </div>
 
-            {/* Conclusion and Next Steps */}
+            {/* Reflection */}
             <div className="ProjectSectionContainer">
 
                 <div className="FirstLevelRow">
@@ -242,7 +330,7 @@ export function IterativeProjectPage() {
                     </div>
                     <div className="SecondLevelBox">
                         <ol>
-                            <li> <span className="SecondLevelBoxOrderedList"> I learned how to implement the iterative design proccess into my practice</span> </li>
+                            <li> <span className="SecondLevelBoxOrderedList"> I learned how to collaboratively and iteratively design</span> </li>
                             <ul>
                                 <li>
                                     Talking through our different opinions and thought processes is key.

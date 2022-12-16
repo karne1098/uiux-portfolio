@@ -72,7 +72,7 @@ export function RedesignProjectPage() {
                                 </ul>
                             </li>
                             <li>
-                                <span class="SecondLevelBoxOrderedList">There is no affordance for whether an element can be clicked or not</span>
+                                <span class="SecondLevelBoxOrderedList">There is no affordance for whether an element can be clicked</span>
                                 <ul>
                                     <li>There is no indication that certain things are clickable other than the cursor changing from an arrow to a hand. </li>
                                 </ul>
@@ -83,7 +83,7 @@ export function RedesignProjectPage() {
                                     <li>Throughout the page, ordering is mentioned but the deliverable changes: a form, a call, an email... what exactly is it?</li>
                                     <li>The order form is at the bottom of the page as a part of the footer.</li>
                                     <li>The image of the credit cards might lead users to think that they can order on this site, when in fact they cannot.</li>
-                                    <li>To truly understand the methods of ordering, one has to navigate to a <a href="http://www2.pnwx.com/Buy/"> separate page</a></li>
+                                    <li>To truly understand the methods of ordering, one has to navigate to a <a href="http://www2.pnwx.com/Buy/"> separate page</a></li>.
                                 </ul>
                             </li>
 
@@ -104,7 +104,7 @@ export function RedesignProjectPage() {
                     <div className="SecondLevelBox">
 
                         The page is inaccessible. The website was tested for accessibility using
-                        <a href="https://wave.webaim.org/"> WebAIM WAVE</a>. Here are major conclusions fromthe results:
+                        <a href="https://wave.webaim.org/"> WebAIM WAVE</a>. Here are major conclusions from the results:
                         <ol>
                             <li>
                                 <span class="SecondLevelBoxOrderedList">Important elements are missing alternative text.</span>
@@ -139,7 +139,7 @@ export function RedesignProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>addressing inccessibility</mark>
+                        <mark>thoughts...</mark>
                     </div>
                     <div className="SecondLevelBox">
                         I  agree with the problems detected and I believe they must be addressed.
@@ -162,7 +162,7 @@ export function RedesignProjectPage() {
 
                 <div className="FirstLevelRow">
                     <div className="FirstLevelName">
-                        In Preparation For Coding...
+                        Preparation For Coding...
                     </div>
                     <div className="FirstLevelBox">
                         For various screen sizes, I <b>prepare</b> low-fidelity sketches, a design system, high-fidelity prototypes, and notes for handoff to developers.
@@ -172,14 +172,23 @@ export function RedesignProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>low fidelity wireframing </mark>
+                        <mark>lofi wireframes </mark>
                     </div>
                     <div className="SecondLevelBox">
-                        I created LoFi wireframe sketches for mobile and tablet/desktop screen sizes. <br /> <br />
-                        mobile lofi wireframes:
+                        I created LoFi wireframe sketches for mobile and tablet/desktop screen sizes.
+                        <br />
+                        <br />
+                        <br />
+                        <span className="SecondLevelBoxOrderedList">mobile lofi wireframes: </span>
+                        <br />
+                        <br />
                         <img src={process.env.PUBLIC_URL + "/" + "images/redesign lofi mobile.jpg"} />
-                        <br /> <br />
-                        tablet/desktop wireframes:
+                        <br />
+                        <br />
+                        <br />
+                        <span className="SecondLevelBoxOrderedList">tablet/desktop wireframes:</span>
+                        <br />
+                        <br />
                         <img src={process.env.PUBLIC_URL + "/" + "images/redesign lofi desktop.jpg"} />
                     </div>
                 </div>
@@ -190,8 +199,7 @@ export function RedesignProjectPage() {
                     </div>
                     <div className="SecondLevelBox">
                         <br />
-                        <span className="SecondLevelBoxOrderedList">Atoms: </span>
-                        these are the smallest design choices that we build larger components on
+                        <span className="SecondLevelBoxOrderedList">Atoms: </span> these are the smallest design choices that we build larger components on
                         <br />
                         <br />
                         <img src={process.env.PUBLIC_URL + "/" + "images/redesign atoms.jpg"} />
@@ -206,7 +214,7 @@ export function RedesignProjectPage() {
 
                 <div className="SecondLevelRow">
                     <div className="SecondLevelName">
-                        <mark>high fidelity wireframes </mark>
+                        <mark>hifi wireframes </mark>
                     </div>
                     <div className="SecondLevelBox">
                         <ol>
