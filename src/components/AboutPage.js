@@ -7,7 +7,7 @@ export function AboutPage() {
                 <img src={process.env.PUBLIC_URL + "/" + "images/testpic.jpg"} />
                 {/* </div> */}
                 <div clasname="AboutPageBlurb">
-                    <h2>Hi all! My name is [radicalwaterbear101].</h2>
+                    <h2>Hi all! My name is Karen Hu.</h2>
                     <br />
                     <br />
                     I am a <span className="PinkHighlight">Computer Science</span> and <span className="PinkHighlight">Visual Art</span> student at Brown University.
@@ -25,7 +25,7 @@ export function AboutPage() {
                     Outside of work, you can find me making and seeing <span className="GreenHighlight">art</span> (of all forms), working on <span className="GreenHighlight">side-projects</span>, and obsessing over <span className="GreenHighlight">cats</span>!
                     <br />
                     <br />
-                    I'd love to speak with you! Feel free to send me an email at <span className="GreenHighlight"><a href="https://www.google.com/" target="_blank">[FakeEmail123@gmail.com]</a></span> or connect with me on <span className="GreenHighlight"> <a href="https://www.linkedin.com/">LinkedIn</a></span>.
+                    I'd love to speak with you! Feel free to send me an email at <span className="GreenHighlight">karen.h1098@gmail.com</span> or connect with me on <span className="GreenHighlight"> <a href="https://www.linkedin.com/in/karenh1098/">LinkedIn</a></span>.
                 </div>
             </div>
         </div>

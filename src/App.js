@@ -53,7 +53,7 @@ function App() {
 
         {/* Logo */}
         <div className="NavBarLogo">
-          <button onClick={() => setBody(<InitialPage bodyToPersonas={bodyToPersonas} />)}> radicalwaterbear101</button>
+          <button onClick={() => setBody(<InitialPage bodyToPersonas={bodyToPersonas} />)}> Karen Hu</button>
         </div>
 
         {/* Navigation tabs */}
@@ -69,7 +69,7 @@ function App() {
           </div> */}
           <div >
             <button className="NavTab" onClick={() => setBody(<AboutPage />)}>
-              About
+              About Me
             </button>
           </div>
 

@@ -11,7 +11,7 @@ export function InitialPage(props) {
                         <img src={process.env.PUBLIC_URL + "/" + "images/profilepic.png"} />
                     </div> */}
                     <div className="LandingPageName">
-                        <h1>[radicalwaterbear101]</h1>
+                        <h1>Hi all, I'm Karen Hu.</h1>
                     </div>
                     <div className="LandingPageBlurb">
                         <h2>
