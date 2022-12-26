@@ -389,7 +389,9 @@ mark {
 .AboutPagePicAndBlurb {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   font-size: 1.1em;
+  /* background-color: purple; */
 }
 
 .AboutPagePicAndBlurb h2 {
@@ -398,13 +400,16 @@ mark {
 }
 
 .AboutPagePic {
-  background-color: red;
-  /* width: 50%; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .AboutPagePicAndBlurb img {
-  max-width: 40%;
-  margin: 0 4.1em 0 0;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
   border-radius: 1em;
 }
 
