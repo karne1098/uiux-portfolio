@@ -61,7 +61,7 @@ h3 {
   padding: 0 1em;
 }
 
-.NavBarLogo {}
+/* .NavBarLogo {} */
 
 .NavTabs {
   display: flex;
@@ -229,9 +229,9 @@ h3 {
 
 
 /* Project Page */
-.PersonasProject {
-  /* background-color: purple; */
-}
+/* .PersonasProject {
+  background-color: purple;
+} */
 
 .ProjectTitle {
   margin: 100px 0 0 0;
@@ -416,4 +416,21 @@ mark {
 .AboutPageBlurb {
   width: 55%;
   font-size: 18px;
+}
+
+
+/* Personas Page */
+#RandyStoryboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#RandyStoryboard .pane {
+  width: 40%;
+  margin: 1em;
+}
+
+#RandyStoryboard img {
+  border-radius: 0;
 }

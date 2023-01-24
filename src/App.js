@@ -49,43 +49,51 @@ function App() {
     <div className="App">
 
       {/* Navigation bar */}
-      <div className="NavBar">
+      <header>
+        <div className="NavBar">
 
-        {/* Logo */}
-        <div className="NavBarLogo">
-          <button onClick={() => setBody(<InitialPage bodyToPersonas={bodyToPersonas} />)}> Karen Hu</button>
-        </div>
-
-        {/* Navigation tabs */}
-        <div className="NavTabs">
-          <div className="NavTab">
-            <button onClick={() => setBody(<WorkPage bodyToPersonas={bodyToPersonas} bodyToRedesign={bodyToRedesign} bodyToIterative={bodyToIterative} bodyToDevelopment={bodyToDevelopment} />)}>
-              Work
-            </button>
+          {/* Logo */}
+          <div className="NavBarLogo">
+            <button onClick={() => setBody(<InitialPage bodyToPersonas={bodyToPersonas} />)}> Karen Hu</button>
           </div>
 
-          {/* <div className="NavTab">
+          {/* Navigation tabs */}
+          <div className="NavTabs">
+            <div className="NavTab">
+              <button onClick={() => setBody(<WorkPage bodyToPersonas={bodyToPersonas} bodyToRedesign={bodyToRedesign} bodyToIterative={bodyToIterative} bodyToDevelopment={bodyToDevelopment} />)}>
+                Work
+              </button>
+            </div>
+
+            {/* <div className="NavTab">
             <button onClick={() => setBody(<ArtPage />)}> Experimental/Art</button>
           </div> */}
-          <div >
-            <button className="NavTab" onClick={() => setBody(<AboutPage />)}>
-              About Me
-            </button>
+            <div >
+              <button className="NavTab" onClick={() => setBody(<AboutPage />)}>
+                About Me
+              </button>
+            </div>
+
           </div>
 
         </div>
-
-      </div>
+      </header>
 
       {/* Body */}
-      <div className="Body">
-        {body}
-      </div>
+      <main>
+        <div className="Body">
+          {body}
+        </div>
+      </main>
+
 
       {/* Footer */}
-      <div className="Footer">
-        Made with care and intention (and matcha) {"<3"}
-      </div>
+      <footer>
+        <div className="Footer">
+          Made with care and intention (and matcha) {"<3"}
+        </div>
+      </footer>
+
 
     </div>
   );

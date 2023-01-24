@@ -184,7 +184,8 @@ export function DevelopmentProjectPage() {
                         <mark>general notes</mark>
                     </div>
                     <div className="SecondLevelBox">
-                        <img src={process.env.PUBLIC_URL + "/" + "images/craigslist landing page.jpg"} />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/craigslist landing page.jpg"}
+                            alt="The existing landing page for Craigslist is geographical. The hero section is a world map." />
                         <ol>
                             <li>
                                 <span className="SecondLevelBoxOrderedList">Geographical Landing Page Supports User Goals</span>
@@ -503,8 +504,14 @@ export function DevelopmentProjectPage() {
                     <div className="SecondLevelBox">
                         Feel free to check it out and play around with the filtering, sorting, and trading list!
                         <br />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/development coded.jpg"}
+                            alt="Front-facing laptop mockup of the Barder website application I coded." />
                         <br />
-                        <button> <a href="https://radicalwaterbear101.github.io/development-final/" target="_blank" rel="noreferrer"> <img src={process.env.PUBLIC_URL + "/" + "images/development coded.jpg"} /> </a> </button>
+
+                        <a href="https://radicalwaterbear101.github.io/development-final/" target="_blank" rel="noreferrer">
+                            My implementation of the Barder site
+                        </a>
+
                     </div>
                 </div>
 

@@ -74,19 +74,22 @@ export function PersonasProjectPage() {
                     <div className="SecondLevelBox">
                         Here is a sketch of the entire charging station. It has a screen and a box section.
                         <br />
-                        <img src={process.env.PUBLIC_URL + "/" + "images/charging station sketch.png"} />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/charging station sketch.png"}
+                            alt="My sketch of the charging station that shows the initial screen and one occupied charging box." />
                         <br />
                         <br />
                         There are four states the screen can be in:
                         <br />
                         <br />
-                        <img src={process.env.PUBLIC_URL + "/" + "images/screen stages.png"} />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/screen stages.png"}
+                            alt="The screen can be on the initial screen, a box selection screen, or an entering pin screen. " />
                         <br />
                         <br />
                         And there are three states the boxes can be in:
                         <br />
                         <br />
-                        <img src={process.env.PUBLIC_URL + "/" + "images/charging box states sketch.png"} />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/charging box states sketch.png"}
+                            alt="The box can be vacant, opened, or occupied." />
                     </div>
                 </div>
 
@@ -238,7 +241,8 @@ export function PersonasProjectPage() {
                     </div>
                     <div className="SecondLevelBox">
                         Here are the initial drafts I created for the two personas: Randy (a repeat user) and Newt (a new user)
-                        <img src={process.env.PUBLIC_URL + "/" + "images/repeat user persona.jpg"} />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/repeat user persona.jpg"}
+                            alt="The original persona was mostly text, and it was separated into thinks, says, does, and feels sections." />
                         <img src={process.env.PUBLIC_URL + "/" + "images/new user persona.jpg"} />
                     </div>
                 </div>
@@ -292,11 +296,60 @@ export function PersonasProjectPage() {
                     <div className="SecondLevelName">
                         <mark>randy (repeat user)</mark>
                     </div>
-                    <div className="SecondLevelBox">
-                        <img src={process.env.PUBLIC_URL + "/" + "images/story1.jpg"} />
-                        <img src={process.env.PUBLIC_URL + "/" + "images/story2.jpg"} />
-                        <img src={process.env.PUBLIC_URL + "/" + "images/story3.jpg"} />
-                        <img src={process.env.PUBLIC_URL + "/" + "images/story4.jpg"} />
+                    <div className="SecondLevelBox" id="RandyStoryboard">
+                        <div className="pane">
+                            <img src={process.env.PUBLIC_URL + "/" + "images/randy 1.jpg"}
+                                alt="At nighttime, Randy walks on the ramp that leads to the library entrance" />
+                            Randy walks to the Rock while looking at their phone.
+                            They have problem set due this week and need to concentrate on studying for the rest of the night
+                        </div>
+                        <div className="pane">
+                            <img src={process.env.PUBLIC_URL + "/" + "images/randy 2.jpg"}
+                                alt="Randy is frowning and sitting upright, as they type on their computer in a cubicle." />
+                            Randy sets off to work at the basement of the Rock basement, and they are able to concentrate well for 30 minutes or so.
+                        </div>
+                        <div className="pane">
+                            <img src={process.env.PUBLIC_URL + "/" + "images/randy 3.jpg"}
+                                alt="Randy is slouched and staring at their phone, which blocks their computer." />
+                            Randy looks at their phone to check a text message,
+                            but ends up scrolling on various apps for more than an hour.
+                        </div>
+                        <div className="pane">
+                            <img src={process.env.PUBLIC_URL + "/" + "images/randy 4.jpg"}
+                                alt="Randy is frowning, grabbing their head, and holding their phone away from their body." />
+                            Randy is frustrated and stressed because the night is getting later,
+                            and they have too much work to be getting distracted by their phone.
+                        </div>
+                        <div className="pane">
+                            <img src={process.env.PUBLIC_URL + "/" + "images/randy 5.jpg"}
+                                alt="Randy is depicted in stride, with the library stacks behind them." />
+                            Randy quickly walks across the library stacks to get to the charging station.
+                        </div>
+                        <div className="pane">
+                            <img src={process.env.PUBLIC_URL + "/" + "images/randy 6.jpg"}
+                                alt="Randy's body is in front of the charging station, and their finger interacts with the screen." />
+                            Immediately, Randy presses the 'charge button' without looking at any of the boxes.
+                        </div>
+                        <div className="pane">
+                            <img src={process.env.PUBLIC_URL + "/" + "images/randy 7.jpg"}
+                                alt="Randy's finger is placed over a button on the screen." />
+                            They see a vacant box and select it without bothering to look at the box first.
+                        </div>
+                        <div className="pane">
+                            <img src={process.env.PUBLIC_URL + "/" + "images/randy 8.jpg"}
+                                alt="The pin fields are filled, and Randy's finger is placed over a button on the screen." />
+                            They enter the pin they always use and confirm.
+                        </div>
+                        <div className="pane">
+                            <img src={process.env.PUBLIC_URL + "/" + "images/randy 9.jpg"}
+                                alt="A charging box is open with a phone inside. The phone is not charging." />
+                            They put their phone inside, not bothering to charge their phone.
+                        </div>
+                        <div className="pane">
+                            <img src={process.env.PUBLIC_URL + "/" + "images/randy 10.jpg"}
+                                alt="Randy is depicted in stride, with the library stacks behind them." />
+                            Randy walks back to their study spot, intent on doing more work.
+                        </div>
                     </div>
                 </div>
 

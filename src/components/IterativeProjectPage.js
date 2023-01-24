@@ -13,7 +13,8 @@ export function IterativeProjectPage() {
                     </div>
                     <div className="FirstLevelBox">
                         A group exercise in designing an interactive interface for an emerging startup.
-                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative overview image.png"} />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative overview image.png"}
+                            alt="Front facing iPhone mockup of the home page of my team's app." />
                         <b> Our Project</b> <br />
                         For this project, we chose to design a mobile interface for Slingshot, a YC startup that utilizes software that automatically monitors and reduces people's medical bills. <br />
                         <b> The Product</b> <br />
@@ -67,15 +68,19 @@ export function IterativeProjectPage() {
                     <div className="SecondLevelBox">
                         We began our iterative design process by having each member create rough sketches for 3 different screens. We didn't specify what those screens would entail, as we wanted to get an idea of what type of screens each member thought would be the most essential for the prototype. Though some of us had screens that overlapped, we felt that our design concepts overall were substantially different enough to include them in our final sketches. You can find each of our sketches below: <br /> <br />
                         Team Member 1
-                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative sketch1.png"} />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative sketch1.png"}
+                            alt="Member 1 sketched a page for an itemized bill, a bill's cost history, and a billing summary." />
                         <br />
                         Team Member 2
-                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative sketch2.png"} />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative sketch2.png"}
+                            alt="Member 2 sketched a page for a billing summary, a bill cost breakdown, and savings insights." />
                         <br />
                         Team Member 3
-                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative sketch3.png"} />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative sketch3.png"}
+                            alt="Member 3 sketched a page for savings insights, a biling summary, and a landing page." />
                         Team Member 4
-                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative sketch4.png"} />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative sketch4.png"}
+                            alt="Member 4 sketched page for all hospital visits, a visit's cost breakdown, and resources." />
                         <br />
                         <br />
                     </div>
@@ -88,7 +93,8 @@ export function IterativeProjectPage() {
                     </div>
                     <div className="SecondLevelBox">
                         After we finished our rough sketches, we incorporated our sketches (overlapping and separate) with additional features we felt were also relevant to Slingshot's mission into one set of wireframes with 4 different screens: a “Home” page, a “Bills” page, a “Trends” page, and a “Resources” page.
-                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative lofi wireframes.png"} />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/iterative lofi wireframes.png"}
+                            alt="This low fidelity mockup has minimal colors and is focused on information organization." />
 
                     </div>
                 </div>

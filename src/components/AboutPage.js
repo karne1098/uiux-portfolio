@@ -1,10 +1,10 @@
 export function AboutPage() {
     return (
         <div className="AboutPage">
-            <h1> About Me: Karen Hu.</h1>
+            <header> About Me: Karen Hu.</header>
             <div className="AboutPagePicAndBlurb">
                 <div className="AboutPagePic">
-                    <img src={process.env.PUBLIC_URL + "/" + "images/headshot.jpg"} />
+                    <img src={process.env.PUBLIC_URL + "/" + "images/headshot.jpg"} alt="Portrait of Karen Hu smiling and with her head tilted slightly in front of flowers." />
                 </div>
                 <div className="AboutPageBlurb">
                     I am a <span className="PinkHighlight">Computer Science</span> and <span className="PinkHighlight">Visual Art</span> student at Brown University.

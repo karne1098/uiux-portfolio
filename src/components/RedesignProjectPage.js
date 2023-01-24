@@ -17,10 +17,12 @@ export function RedesignProjectPage() {
                         The content of the site also allows me to gain experience designing within a domain that I am interested in (medicine and public health).
                         Throughout this page, you'll see how and why I redesigned the X-Ray page from its {" "}
                         <a href="https://www2.pnwx.com/Accessories/LeadProducts/Aprons/TechnoAideFlex/" target="_blank">[existing design]</a> :
-                        <img src={process.env.PUBLIC_URL + "/" + "images/redesign old site.png"} />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/redesign old site.png"}
+                            alt="This laptop mockup of the existing X-Ray site previews the usability and accessibility issues." />
                         To the {"  "}
                         <a href="https://radicalwaterbear101.github.io/redesign" target="_blank">[my redesign]</a> :
-                        <img src={process.env.PUBLIC_URL + "/" + "images/redesign cover.png"} />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/redesign cover.png"}
+                            alt="This laptop mockup of my redesign previews my solution to the usability and accessibility issues." />
                         Feel free visit these sites and change the size of your viewing window to see how the different websites behave.
                     </div>
                 </div>
@@ -189,7 +191,8 @@ export function RedesignProjectPage() {
                         <span className="SecondLevelBoxOrderedList">tablet/desktop wireframes:</span>
                         <br />
                         <br />
-                        <img src={process.env.PUBLIC_URL + "/" + "images/redesign lofi desktop.jpg"} />
+                        <img src={process.env.PUBLIC_URL + "/" + "images/redesign lofi desktop.jpg"}
+                            alt="" />
                     </div>
                 </div>
 
